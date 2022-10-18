@@ -35,7 +35,7 @@ function CandidatesPage() {
                   name="candidate"
                   type="text"
                   id="candidate"
-                  value={singleCandidate.cervice}
+                  value={singleCandidate.service}
                   onChange={(e) => handleCandidateChange(e, index)}
                   required
                 />
